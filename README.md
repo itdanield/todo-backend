@@ -1,24 +1,27 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Run Locally
 
-Things you may want to cover:
+Clone the project
 
-* Ruby version
+```bash
+  git clone https://github.com/itdanield/todo-backend
+```
 
-* System dependencies
+Go to the project directory
 
-* Configuration
+```bash
+  cd todo-backend
+```
 
-* Database creation
+Install dependencies
 
-* Database initialization
+```bash
+  bundle install
+```
 
-* How to run the test suite
+Start the server
 
-* Services (job queues, cache servers, search engines, etc.)
+```bash
+  rails s
+```
 
-* Deployment instructions
-
-* ...
